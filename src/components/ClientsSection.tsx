@@ -1,17 +1,16 @@
-import client1 from "@/assets/client-1.jpg";
-import client2 from "@/assets/client-2.jpeg";
-
 const ClientsSection = () => {
   return (
-    <section className="py-12 bg-secondary">
-      <div className="container mx-auto px-6 text-center">
-        <h2 className="text-xl md:text-2xl font-heading font-bold text-foreground mb-8">
-          These companies have worked with us to leverage their data and AI initiatives
+    <section className="py-20 bg-secondary">
+      <div className="container mx-auto px-6 text-center max-w-3xl">
+        <h2 className="text-2xl md:text-3xl font-heading font-bold text-foreground mb-4">
+          Stop Guessing. Start Growing.
         </h2>
-        <div className="flex flex-wrap justify-center items-center gap-10">
-          <img src={client1} alt="Client" className="h-16 object-contain" />
-          <img src={client2} alt="Client" className="h-16 object-contain" />
-        </div>
+        <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
+          Every day without a clear data strategy is a day your competitors get ahead.
+          We help you turn raw data into real results — faster decisions, smarter products,
+          and measurable impact. No fluff, no generic frameworks. Just solutions built
+          around <span className="text-primary font-semibold">your</span> business.
+        </p>
       </div>
     </section>
   );
